@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "intent": "CricketIntent",
+      "slots": [
+        {
+          "name": "SeriesNumber",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "TeamName",
+          "type": "LIST_OF_TEAM"
+        }
+      ]
+    },
+    {
+      "intent": "SeriesInfoIntent",
+      "slots": [
+        {
+          "name": "SeriesNumber",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "TeamInfoIntent",
+      "slots": [
+        {
+          "name": "TeamName",
+          "type": "LIST_OF_TEAM"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

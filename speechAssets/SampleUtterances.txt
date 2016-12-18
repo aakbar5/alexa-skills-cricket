@@ -1,0 +1,15 @@
+CricketIntent give me update
+CricketIntent yes
+CricketIntent yes please
+CricketIntent {SeriesNumber}
+CricketIntent {TeamName}
+
+SeriesInfoIntent summary of series number {SeriesNumber}
+
+TeamInfoIntent summary of team named {TeamName}
+
+AMAZON.StopIntent no
+AMAZON.StopIntent nope
+AMAZON.StopIntent no thanks
+AMAZON.StopIntent no thank you
+AMAZON.StopIntent thanks
